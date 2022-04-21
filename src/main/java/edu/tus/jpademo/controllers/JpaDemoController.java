@@ -16,6 +16,11 @@ public class JpaDemoController
     @Autowired
     private UserRepository userRepository;
 
+    @GetMapping("/hello")
+    public String sayHi() {
+        return "hello from jenkins";
+    }
+    
     @GetMapping("/users")
     public List<User> getUsers() {
         return userRepository.findAll();
