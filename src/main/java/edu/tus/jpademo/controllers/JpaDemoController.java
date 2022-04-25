@@ -18,7 +18,7 @@ public class JpaDemoController
 
     @GetMapping("/hello")
     public String sayHi() {
-        return "hello from jenkins-testweb--testJenkins";
+        return "hello from jenkins-testpipeline";
     }
     
     @GetMapping("/users")
