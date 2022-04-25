@@ -9,7 +9,6 @@ public class JpaOneToOneDemoApplication
 
 	public static void main(String[] args) {
 		SpringApplication.run(JpaOneToOneDemoApplication.class, args);
-		System.out.println("SpringBootApplication");
 	}
 
 }
